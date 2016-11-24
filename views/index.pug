@@ -2,8 +2,18 @@ extends layout
 
 block content
   .main.container.text-xs-center
-    h1.display-3 Read &amp; Share Books
-    p.lead Choose from our large collection of paid and free books!
+    script.
+      (function() {
+      var cx = '015034213694684557599:hqrub-gl04a';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+      })();
+    gcse:search
+    br
     a.btn.btn-info-outline.btn-lg(href='/register') Get Started for FREE
 
 
