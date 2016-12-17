@@ -10,4 +10,4 @@ Foogle is a search engine I used to build software I use to build software. This
 * heroku
 * mongolab
 
-(demo)[https://calm-taiga-46710.herokuapp.com/]
+[demo](https://calm-taiga-46710.herokuapp.com/)
